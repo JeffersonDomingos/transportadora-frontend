@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://transportadora-backend.onrender.com/cargo'; 
+const API_URL = 'https://transportadora-backend.onrender.com/cargos'; 
 
 export interface Cargo {
   id: number;
