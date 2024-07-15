@@ -50,7 +50,7 @@ const DriversList: React.FC = () => {
           <tbody>
             {drivers.length === 0 ? (
               <tr>
-                <td colSpan={3} className="px-6 py-4 text-center">No drivers available</td>
+                <td colSpan={3} className="px-6 py-4 text-center">Nenhum motorista disponível.</td>
               </tr>
             ) : (
               drivers.map((driver) => (

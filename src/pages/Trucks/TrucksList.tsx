@@ -67,7 +67,7 @@ const TrucksList = () => {
             {trucks.length === 0 ? (
               <tr>
                 <td colSpan={4} className="px-6 py-4 text-center">
-                  No trucks available
+                  Nenhum caminhão disponível.
                 </td>
               </tr>
             ) : (

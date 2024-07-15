@@ -44,7 +44,7 @@ const CargoList = () => {
           <tbody>
             {cargos.length === 0 ? (
               <tr>
-                <td colSpan={3} className="px-6 py-4 text-center">No cargos available</td>
+                <td colSpan={3} className="px-6 py-4 text-center">Nenhuma carga disponível.</td>
               </tr>
             ) : (
               cargos.map((cargo) => (
